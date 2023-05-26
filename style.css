@@ -1,0 +1,406 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 86.03196664350243vw;
+}
+
+.main .menu-logo {
+    background-color: #051024;
+}
+
+.logo {
+    height: 8.269631688672689vw;
+    position: relative;
+    top: 1.9457956914523975vw;
+    left: 2.779708130646282vw;
+}
+
+.main .menu-logo .logo img {
+    width: 10.13273106323836vw;
+    height: 3.373870743571925vw;
+}
+
+/* there are 3 ul in the section. so this is the first one====== */
+.first {
+    height: 21.95969423210563vw;
+    margin-bottom: 0px;
+}
+
+/* there are 3 ul in the section. so this is the second one====== */
+.second {
+    height: 10.423905489923557vw;
+    margin-bottom: 0px;
+}
+
+.first img,
+.second img,
+.third img {
+    margin-right: 0.9728978457261988vw;
+    width: 1.0416666666666667vw;
+    height: 1.0416666666666667vw;
+}
+
+.first li,
+.second li,
+.third li {
+    width: 100%;
+    height: 3.4746351633078527vw;
+    list-style: none;
+    padding-left: 2.8492008339124393vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.first li:first-child {
+    background: rgba(81, 200, 248, 0.09);
+    border-left: 0.078125vw solid #1DBFFF;
+}
+
+.first li a,
+.second li a,
+.third li a {
+    font-weight: 500;
+    font-size: 0.9728978457261988vw;
+    line-height: 140%;
+}
+
+
+.menu-logo h2 {
+    font-weight: 500;
+    font-size: 1.111883252258513vw;
+    line-height: 140%;
+    padding-left: 2.8492008339124393vw;
+    margin-bottom: 1.7373175816539264vw;
+
+}
+
+
+
+
+
+
+
+.others nav {
+    width: 100%;
+    height: 5.350938151494093vw;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 0vw 2.223766504517026vw;
+}
+
+nav .left-p {
+    font-weight: 400;
+    font-size: 0.9728978457261988vw;
+}
+
+.right-nav img {
+    padding-right: 1.8068102849200833vw;
+    border-right: 0.03474635163307853vw solid rgb(204, 201, 201);
+}
+
+.notification-number {
+    font-size: 0.625vw;
+    background-color: #00B0FC;
+    padding: 0.46875vw 0.46875vw;
+    position: relative;
+    right: 3vw;
+    top: -0.9vw;
+
+
+    border-radius: 50%;
+    padding: 0.22875vw 0.56875vw;
+}
+
+
+.notification-icon {
+    width: 3.389854065323141vw;
+    height: 1.0423905489923557vw;
+}
+
+.dropdown-toggle {
+    font-size: 1.111883252258513vw;
+    width: 5vw;
+    border: none;
+}
+
+
+
+.dropdown-item {
+    font-size: 1.111883252258513vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dashboard-metrics {
+    padding: 0vw 2.223766504517026vw;
+    padding-top: 2.640722724113968vw;
+    margin-bottom: 1.8763029881862405vw;
+    background-color: #F5F5F5;
+}
+
+
+.matrics-heading {
+    margin-bottom: 1.8763029881862405vw;
+}
+
+.matrics-heading h1 {
+    font-weight: 700;
+    font-size: 2.223766504517026vw;
+    line-height: 140%;
+
+}
+
+.last-7-days {
+    width: 13.620569840166782vw;
+    height: 3.1966643502432244vw;
+    font-size: 0.9728978457261988vw;
+
+
+    border: 0.06949270326615706vw solid rgba(14, 14, 14, 0.2);
+    border-radius: 6.949270326615705vw;
+}
+
+
+
+
+/*  banner of the dashboard matrics--------- */
+.banner {
+    width: 74.84364141765114vw;
+    height: 16.26129256428075vw;
+
+
+    background: #FFFFFF;
+    padding: 1.0423905489923557vw;
+    /* shadow 1 */
+
+    box-shadow: 0px 0px 0.4864489228630994vw 0.13898540653231412vw rgba(0, 0, 0, 0.02);
+    border-radius: 1.0423905489923557vw;
+    margin-bottom: 2.779708130646282vw
+}
+
+.banner-left,
+.banner-right {
+    width: 34.60736622654621vw;
+    height: 14.17651146629604vw;
+
+
+    background: #D7F4FF;
+    border: 0.06949270326615706vw solid #1DBFFF;
+    box-shadow: 0px 0px 2.0847810979847115vw 0.34746351633078526vw rgba(0, 0, 0, 0.06);
+    border-radius: 1.111883252258513vw;
+}
+
+.banner-left img,
+.banner-right img {
+    margin-top: 2.36275191104934vw;
+    width: 3.1966643502432244vw;
+    height: 3.1966643502432244vw;
+}
+
+.banner-left h2,
+.banner-right h2 {
+    font-weight: 700;
+    font-size: 2.223766504517026vw;
+    line-height: 140%;
+}
+
+.banner-left p,
+.banner-right p {
+    position: relative;
+    top: -1.5vw;
+    font-size: 1.111883252258513vw;
+}
+
+
+
+/* classified software application */
+.classified-software-application,
+.reported {
+    width: 74.84364141765114vw;
+    height: 24.878387769284224vw;
+
+
+    background: #FFFFFF;
+    /* shadow 1 */
+
+    box-shadow: 0px 0px 0.4864489228630994vw 0.13898540653231412vw rgba(0, 0, 0, 0.02);
+    border-radius: 1.0423905489923557vw;
+    padding: 1.6678248783877694vw 1.0423905489923557vw;
+    margin-bottom: 2.779708130646282vw;
+}
+
+.classified-software-application-heading,
+.reported-heading {
+    margin-bottom: 3.4746351633078527vw;
+}
+
+.classified-software-application-heading h2,
+.reported-heading h2 {
+    font-weight: 700;
+    font-size: 1.389854065323141vw;
+    line-height: 140%;
+
+}
+
+.classified-software-application-heading button,
+.reported-heading button {
+    width: 8.408617095205004vw;
+    height: 2.1542738012508686vw;
+    font-weight: 400;
+    font-size: 0.9728978457261988vw;
+    line-height: 140%;
+
+
+    background: rgba(14, 14, 14, 0.06);
+    border-radius: 0.27797081306462823vw;
+    border: none;
+    margin-left: 0.8339124391938847vw;
+}
+
+.high-risk,
+.medium-risk,
+.low-risk {
+    width: 21.820708825573316vw;
+    height: 16.122307157748438vw;
+
+
+    border: 0.06949270326615706vw solid rgba(14, 14, 14, 0.14);
+    border-radius: 1.111883252258513vw;
+    padding: 1.5983321751216122vw;
+}
+
+.high-risk h2,
+.medium-risk h2,
+.low-risk h2 {
+    font-weight: 500;
+    font-size: 1.2508686587908269vw;
+    line-height: 1.8763029881862405vw;
+}
+
+
+
+.high-risk h5,
+.medium-risk h5,
+.low-risk h5 {
+    font-weight: 600;
+    font-size: 1.5288394718554552vw;
+    line-height: 2.2932592077831826vw;
+    /* identical to box height */
+    margin-right: 0.4211952744961779vw;
+
+
+
+    /* Brand Black */
+
+    color: #0E0E0E;
+}
+
+
+
+
+.right-high-risk img,
+.right-medium-risk img,
+.right-low-risk img {
+    width: 8.339124391938846vw;
+    height: 8.339124391938846vw;
+}
+
+
+
+
+
+
+
+/* final section================ */
+/* left size image */
+
+
+
+.last-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.6678248783877694vw;
+    width: 45.3092425295344vw;
+    height: 15.844336344683809vw;
+    position: relative;
+    left: 2vw;
+}
+
+.circle {
+    width: 21.820708825573316vw;
+    height: 7.08825573314802vw;
+    padding: 1.0423905489923557vw 2.0847810979847115vw;
+
+
+    border: 0.06949270326615706vw solid rgba(14, 14, 14, 0.14);
+    border-radius: 1.111883252258513vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle h6 {
+    font-weight: 500;
+    font-size: 0.9728978457261988vw;
+    line-height: 1.459346768589298vw;
+}
+
+.circle-right img {
+    width: 4.100069492703266vw;
+    height: 4.100069492703266vw;
+
+}
+
+/* last div grid number */
+.number {
+    font-weight: 600;
+    font-size:  1.5288394718554552vw;
+    line-height:  2.2932592077831826vw;
+
+}
+
+
+
+.group-trending{
+    width: 2.36275191104934vw;
+    height: 2.107018763029882vw;
+}
+
+
+
+
+
+.vulnerabilities {
+    width: 21vw;
+    height: 21vw;
+    position: relative;
+    top: -2vw;
+    left: 3vw;
+}
+
+.trending-up{
+    width: 2.2vw;
+    height: 2.5vw;
+    margin-left: 0.2vw;
+}
+
+.circle-right img{
+    transform: scaleX(-1);
+}
