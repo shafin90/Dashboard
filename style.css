@@ -1,3 +1,8 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .main {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -36,8 +41,8 @@
 .second img,
 .third img {
     margin-right: 0.9728978457261988vw;
-    width: 1.0416666666666667vw;
-    height: 1.0416666666666667vw;
+    width: 1.3716666666666667vw;
+    height: 1.3716666666666667vw;
 }
 
 .first li,
@@ -63,6 +68,7 @@
     font-weight: 500;
     font-size: 0.9728978457261988vw;
     line-height: 140%;
+
 }
 
 
@@ -150,8 +156,9 @@ nav .left-p {
 .dashboard-metrics {
     padding: 0vw 2.223766504517026vw;
     padding-top: 2.640722724113968vw;
-    margin-bottom: 1.8763029881862405vw;
+    /* margin-bottom: 1.8763029881862405vw; */
     background-color: #F5F5F5;
+    padding-bottom: 1.459346768589298vw;
 }
 
 
@@ -211,6 +218,7 @@ nav .left-p {
     margin-top: 2.36275191104934vw;
     width: 3.1966643502432244vw;
     height: 3.1966643502432244vw;
+    margin-bottom: 1.6vw;
 }
 
 .banner-left h2,
@@ -218,6 +226,7 @@ nav .left-p {
     font-weight: 700;
     font-size: 2.223766504517026vw;
     line-height: 140%;
+    margin-bottom: 1.5vw;
 }
 
 .banner-left p,
@@ -381,6 +390,7 @@ nav .left-p {
 .group-trending{
     width: 2.36275191104934vw;
     height: 2.107018763029882vw;
+    margin-left: 0.5vw;
 }
 
 
@@ -388,11 +398,11 @@ nav .left-p {
 
 
 .vulnerabilities {
-    width: 21vw;
-    height: 21vw;
+    width: 19vw;
+    height: 19vw;
     position: relative;
-    top: -2vw;
-    left: 3vw;
+    top: -1vw;
+    left: 2vw;
 }
 
 .trending-up{
